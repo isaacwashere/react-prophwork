@@ -13,10 +13,10 @@ class Granny extends React.Component {
 
   }
 
-  // getGranny = () => {
-  //   let name = "granny"
-  //   this.setState({name: name})
-  // }
+  getGranny = () => {
+    let name = "granny"
+    this.setState({name: name})
+  }
   myName = (args) => {
 
     this.setState({name: args})
